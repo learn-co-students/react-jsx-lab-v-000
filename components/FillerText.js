@@ -4,7 +4,7 @@
 
 const React = require('react');
 
-class FillerText extends React.Component{
+class FillerText extends React.Component {
 	render() {
 		return (
 			<p> 
