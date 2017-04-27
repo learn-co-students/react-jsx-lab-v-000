@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const React = require('react');
+const ReactDOM = require('react-dom');
 
-import RegistrationForm from './components/RegistrationForm';
-import Webpage from './components/Webpage';
+import RegistrationForm from './components/RegistrationForm'
+import Webpage from './components/Webpage'
+// const RegistrationForm = require('./components/RegistrationForm');
+// const Webpage = require('./components/Webpage');
 
 ReactDOM.render(
   (
