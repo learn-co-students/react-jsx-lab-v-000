@@ -13,3 +13,5 @@ ReactDOM.render(
   ),
   document.getElementById('root')
 );
+
+require('./test/index-test.js');
