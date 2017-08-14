@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class FillerText extends React.Component {
+export default class FillerText extends React.Component {
   render() {
     return (
       <p>
