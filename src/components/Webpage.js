@@ -1,13 +1,13 @@
 import React from 'react';
-import {FillerText} from './FillerText';
+import FillerText from './FillerText';
 
-class Webpage extends React.component {
+class Webpage extends React.Component {
   render () {
     return (
       <div>
         <title>"The world's coolest webpage."</title>
-        <FillerText />
-        <FillerText />
+        <FillerText></FillerText>
+        <FillerText></FillerText>
       </div>
     );
   }
