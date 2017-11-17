@@ -1,7 +1,7 @@
 import React from 'react'
-const FillerText = require('./FillerText');
+import FillerText from './FillerText'
 
-class Webpage extends React.Component {
+export default class Webpage extends React.Component {
 	render() {
 		return (
 			<div>
@@ -12,5 +12,3 @@ class Webpage extends React.Component {
 		)
 	}
 }
-
-export default Webpage

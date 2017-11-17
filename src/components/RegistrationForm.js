@@ -1,6 +1,6 @@
 import React from 'react'
 
-class RegistrationForm extends React.Component {
+export default class RegistrationForm extends React.Component {
   render(){
     return ( 
     <form>
@@ -11,5 +11,3 @@ class RegistrationForm extends React.Component {
     );
   }
 }
-
-export default RegistrationForm
