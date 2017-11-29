@@ -6,7 +6,7 @@ import Webpage from './components/Webpage';
 
 ReactDOM.render(
   (
-    <div> 
+    <div>
       <RegistrationForm />
       <Webpage />
     </div>

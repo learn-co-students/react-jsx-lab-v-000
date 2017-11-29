@@ -5,9 +5,9 @@ class Webpage extends React.Component {
   render() {
     return (
       <div>
-        <title>"The world's coolest webpage"</title>
-        React.createElement(FillerText) VS <FillerText /> ???
-        React.createElement(FillerText)
+        <title>The world's coolest webpage</title>
+        <FillerText />
+        <FillerText />
       </div>
     )
   }
