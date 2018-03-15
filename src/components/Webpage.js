@@ -13,8 +13,3 @@ class Webpage extends React.Component {
 };
 
 export default Webpage;
-
-ReactDOM.render(
-  <FillerText />,
-  document.getElementById('global')
-);
