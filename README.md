@@ -1,5 +1,5 @@
 # React JSX Lab
-
+ 
 ## Overview
 
 In this lab, you'll compile your JavaScript into JSX, defining a React component.
