@@ -1,20 +1,16 @@
 import React from 'react'
 import FillerText from './FillerText';
-import ReactDOM from 'react-dom';
 
 class Webpage extends React.Component {
   render() {
     return (
-      <div className="registrationForm">
-        <title>The worlds coolest webpage.</title>
+      <div className="webpage">
+        <title>The world's coolest webpage.</title>
+        <FillerText />
+        <FillerText />
       </div>
     );
   }
 }
 
 export default Webpage;
-
-ReactDOM.render(
-  <FillerText />,
-  document.getElementById('root')
-);
