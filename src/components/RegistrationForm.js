@@ -1,9 +1,11 @@
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+
 class RegistrationForm extends React.Component {
   render() {
     return (
-      <form>
+      <form className="RegistrationForm">
         <input type="text" />
         <input type="password" />
         <button type="submit">Submit</button>
