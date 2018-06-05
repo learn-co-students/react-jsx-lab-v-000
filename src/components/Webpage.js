@@ -3,7 +3,7 @@
 // This component should contain a title with the text The world's coolest webpage.
 // This component should also contain two instances of the FillerText component.
 
-import FillerText from './components';
+import FillerText from './FillerText';
 import React from 'react'
 import ReactDOM from 'react-dom'
 
