@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class RegistrationForm extends React.Component {
+export default class RegistrationForm extends React.Component {
   render() {
     return (
       <form className="RegistrationForm">
@@ -13,5 +13,3 @@ class RegistrationForm extends React.Component {
     )
   }
 }
-
-export default RegistrationForm;
