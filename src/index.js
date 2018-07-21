@@ -10,7 +10,7 @@ ReactDOM.render(
     <div>
       <RegistrationForm />
       <Webpage />
-      <FillerText />
+
     </div>
   ),
   document.getElementById('global')
