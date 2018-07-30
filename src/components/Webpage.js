@@ -2,13 +2,16 @@ import React, { Component } from 'react' // We need to import react so we can ma
 import ReactDOM from 'react-dom'
 import FillerText from './FillerText'
 
-function Webpage() {
-  return
+class Webpage extends Component {
+  render() {
+    return (
       <div>
         <title>The world's coolest webpage</title>
         <FillerText />
         <FillerText />
       </div>
+    );
+  }
 }
 
-Webpage.export
+export default Webpage
