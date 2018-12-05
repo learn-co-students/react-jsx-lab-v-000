@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom'; // ...and we need to import ReactDOM so we can
 
 import RegistrationForm from './components/RegistrationForm';
 import Webpage from './components/Webpage';
-import FillerText from './components/FillerText';
 
 export default class App extends Component {
 	render () {
