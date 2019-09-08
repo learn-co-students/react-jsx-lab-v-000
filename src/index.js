@@ -7,8 +7,8 @@ import Webpage from './components/Webpage';
 ReactDOM.render(
   (
     <div>
-      <RegistrationForm />
       <Webpage />
+      <RegistrationForm />
     </div>
   ),
   document.getElementById('global')
